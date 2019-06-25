@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Book1 from "../imgs/book1.png";
 import Book2 from "../imgs/book2.png";
 const MainContent = () => {
