@@ -1,6 +1,6 @@
 import React from "react";
-import Book1 from "./../imgs/book1.png";
-import Book2 from "./../imgs/book2.png";
+import Book1 from "../imgs/book1.png";
+import Book2 from "../imgs/book2.png";
 const MainContent = () => {
   return (
     <div className="container">
