@@ -4,13 +4,80 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+h1,
+h2 {
+  font-weight: bold;
+}
+
+.black {
+  background: black;
+  padding: 0.5%;
+}
+
+.fab {
+  font-size: 1.3rem;
+}
+
+.navbar-nav {
+  border-bottom: 0.5px #ccc solid;
+}
+.nav-link {
+  font-size: 13px;
+  color: black;
+  font-weight: bold;
+}
+.nav-tabs {
+  background-color: #282f54;
+  /* padding: 0.5%; */
+}
+
+.nav-tabs li:hover {
+  background-color: white;
+  border: none !important;
+}
+
+.nav-tabs li a:hover {
+  color: black;
+  text-decoration: underline;
+}
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  display: block;
+  background-color: #dfe0e6;
+  color: #282f54;
+  border-radius: 0;
+}
+
+.nav-tabs a {
+  color: white;
+}
+
+/* .nav-tabs .nav-link {
+  border: none;
+} */
+
+.dropdown-menu .dropdown-item {
+  color: black;
+}
+
+.navbar-brand {
+  color: white !important;
+}
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
 a {
   color: black;
 }
 
+.fa-search {
+  border: none;
+}
 .jumbotron {
   padding: 1rem;
 }
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

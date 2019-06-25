@@ -1,33 +1,55 @@
 import React from "react";
-import { NavLink, Link } from "react-router-dom";
-import Twitter from "../imgs/twitter.jpg";
-import Facebook from "../imgs/facebook.jpg";
-import LinkedIn from "../imgs/linkedIn.png";
-import Youtube from "../imgs/youtube.png";
 
 const Footer = () => {
   return (
     <footer className="container-fluid">
       <section className="container footer-nav">
-        <NavLink to="#">Privacy</NavLink> &#124;{" "}
-        <NavLink to="#">Cookies</NavLink> &#124;{" "}
-        <NavLink to="#">Terms & Conditions</NavLink> &#124;{" "}
-        <NavLink to="#">Modern Slavery Act</NavLink> &#124;{" "}
-        <NavLink to="#">Help</NavLink> &#124; <NavLink to="#">Contact</NavLink>
+        <a href="https://www.lloyds.com/common/privacy-notices" target="_blank">
+          Privacy
+        </a>{" "}
+        &#124;{" "}
+        <a href="https://www.lloyds.com/common/cookies-policy" target="_blank">
+          Cookies
+        </a>{" "}
+        &#124;{" "}
+        <a
+          href="https://www.lloyds.com/common/terms-and-conditions"
+          target="_blank"
+        >
+          Terms & Conditions
+        </a>{" "}
+        &#124;{" "}
+        <a
+          href="https://www.lloyds.com/modernslaverystatement"
+          download="https://www.lloyds.com/modernslaverystatement"
+        >
+          Modern Slavery Act
+        </a>{" "}
+        &#124;{" "}
+        <a href="https://www.lloyds.com/help-and-glossary" target="_blank">
+          Help
+        </a>{" "}
+        &#124;{" "}
+        <a href="https://www.lloyds.com/contact-us" target="_blank">
+          Contact
+        </a>
       </section>
       <section className=" container footer-social">
-        <Link to="#">
-          <img src={Twitter} alt="Twitter Icon Logo" />
-        </Link>
-        <Link to="#">
-          <img src={Facebook} alt="Facebook Icon Logo" />
-        </Link>
-        <Link to="#">
-          <img src={LinkedIn} alt="LinkedIn Icon Logo" />
-        </Link>
-        <Link to="#">
-          <img src={Youtube} alt="Youtube Icon Logo" />
-        </Link>
+        <a href="https://twitter.com/LloydsofLondon" target="_blank">
+          <i class="fab fa-twitter-square" />
+        </a>
+        <a
+          href="http://www.linkedin.com/company/lloyd%27s-of-london"
+          target="_blank"
+        >
+          <i class="fab fa-facebook-square" />
+        </a>
+        <a href="https://www.facebook.com/lloyds" target="_blank">
+          <i class="fab fa-linkedin" />
+        </a>
+        <a href="https://www.youtube.com/user/Lloydsinsurance" target="_blank">
+          <i class="fab fa-youtube-square" />
+        </a>
       </section>
       <section className="container">
         <p>Lloyd's Copyright 2019</p>

@@ -42,9 +42,13 @@ const MainContent = () => {
             for companies using the AI to applying the technology to improve
             insurance processes and deliver better value.{" "}
           </p>
-          <Link to="#" className="btn btn-primary">
+          <a
+            href="https://www.lloyds.com/~/media/files/news-and-insight/risk-insight/2019/aireport_2019_final_pdf.pdf"
+            download="https://www.lloyds.com/~/media/files/news-and-insight/risk-insight/2019/aireport_2019_final_pdf.pdf"
+            className="btn btn-primary"
+          >
             Download
-          </Link>
+          </a>
         </div>
       </section>
 
@@ -65,9 +69,13 @@ const MainContent = () => {
             understanding of risk and offer opportunities for improved risks and
             pricing models.
           </p>
-          <Link to="#" className="btn btn-primary">
+          <a
+            href="https://www.lloyds.com/~/media/files/news-and-insight/risk-insight/2019/robotics_2019_final_pdf.pdf"
+            download="https://www.lloyds.com/~/media/files/news-and-insight/risk-insight/2019/robotics_2019_final_pdf.pdf"
+            className="btn btn-primary"
+          >
             Download
-          </Link>
+          </a>
         </div>
       </section>
     </div>

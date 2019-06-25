@@ -3,23 +3,28 @@ import { Link } from "react-router-dom";
 const TakeControl = () => {
   return (
     <>
-      <div class="jumbotron jumbotron-fluid">
-        <div class="container">
+      <div className="jumbotron jumbotron-fluid">
+        <div className="container">
           <nav aria-label="breadcrumb">
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item">
-                <Link href="#">Risk Reports</Link>
+            <ol className="breadcrumb">
+              <li className="breadcrumb-item">
+                <a href="https://www.lloyds.com/news-and-risk-insight/risk-reports">
+                  Risk Reports
+                </a>
               </li>
-              <li class="breadcrumb-item" aria-current="page">
-                Technology
+              <li className="breadcrumb-item" aria-current="page">
+                <a href="https://www.lloyds.com/news-and-risk-insight/risk-reports/library/technology">
+                  Technology
+                </a>
               </li>
             </ol>
           </nav>
-          <h1 class="display-4">Taking control</h1>
-          <p class="lead">
+          <h1>Taking control</h1>
+          <p className="lead">
             This is a modified jumbotron that occupies the entire horizontal
             space of its parent.
           </p>
+          <i className="fas fa-share-alt" /> Share
         </div>
       </div>
     </>
