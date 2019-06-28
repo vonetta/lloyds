@@ -3,7 +3,7 @@ import React from "react";
 const MainNav = () => {
   return (
     <div className="container">
-      <ul className="nav nav-tabs">
+      <ul className="nav">
         <li className="nav-item dropdown">
           <a
             className="nav-link active"

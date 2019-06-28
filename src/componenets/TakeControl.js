@@ -11,12 +11,20 @@ const TakeControl = () => {
           <nav aria-label="breadcrumb">
             <ol className="breadcrumb">
               <li className="breadcrumb-item">
-                <a href="https://www.lloyds.com/news-and-risk-insight/risk-reports">
+                <a
+                  href="https://www.lloyds.com/news-and-risk-insight/risk-reports"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Risk Reports
                 </a>
               </li>
               <li className="breadcrumb-item" aria-current="page">
-                <a href="https://www.lloyds.com/news-and-risk-insight/risk-reports/library/technology">
+                <a
+                  href="https://www.lloyds.com/news-and-risk-insight/risk-reports/library/technology"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Technology
                 </a>
               </li>
@@ -28,39 +36,43 @@ const TakeControl = () => {
             space of its parent.
           </p>
 
-          <div class="dropdown">
+          <div className="dropdown">
             <i className="fas fa-share-alt"> Share </i>
             <div
-              class="dropdown-menu social"
+              className="dropdown-menu social"
               aria-labelledby="dropdownMenuLink"
             >
               <a
-                class="dropdown-item"
+                className="dropdown-item"
                 href="https://twitter.com/home?status=https%3A//www.lloyds.com:443/news-and-risk-insight/risk-reports/library/technology/taking-control"
                 target="_blank"
+                rel="noopener noreferrer"
               >
-                <img src={Twitter} />
+                <img src={Twitter} alt="twitter logo" />
               </a>
               <a
-                class="dropdown-item"
+                className="dropdown-item"
                 href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A//www.lloyds.com:443/news-and-risk-insight/risk-reports/library/technology/taking-control"
                 target="_blank"
+                rel="noopener noreferrer"
               >
-                <img src={Facebook} />
+                <img src={Facebook} alt="facebook logo" />
               </a>
               <a
-                class="dropdown-item"
+                className="dropdown-item"
                 href="https://twitter.com/home?status=https%3A//www.lloyds.com:443/news-and-risk-insight/risk-reports/library/technology/taking-control"
                 target="_blank"
+                rel="noopener noreferrer"
               >
-                <img src={LinkedIn} />
+                <img src={LinkedIn} alt="linkedin logo" />
               </a>
               <a
-                class="dropdown-item"
+                className="dropdown-item"
                 href="mailto:?subject=Taking-control&amp;body=https%3a%2f%2fwww.lloyds.com%3a443%2fnews-and-risk-insight%2frisk-reports%2flibrary%2ftechnology%2ftaking-control"
                 target="_blank"
+                rel="noopener noreferrer"
               >
-                <img src={Mail} />
+                <img src={Mail} alt="mail icon" />
               </a>
             </div>
           </div>
